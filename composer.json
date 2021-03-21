@@ -1,0 +1,41 @@
+{
+    "name": "lizhineng/laravel-snowflake",
+    "description": "Easily using Snowflake for Eloquent models.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Li Zhineng",
+            "email": "im@zhineng.li"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "lizhineng/snowflake": "dev-master"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhineng\\LaravelSnowflake\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zhineng\\LaravelSnowflake\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhineng\\LaravelSnowflake\\SnowflakeServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
