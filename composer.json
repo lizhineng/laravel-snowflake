@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "lizhineng/snowflake": "dev-master"
+        "lizhineng/snowflake": "dev-main"
     },
     "require-dev": {
         "orchestra/testbench": "^6.15"
